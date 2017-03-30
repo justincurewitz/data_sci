@@ -24,4 +24,5 @@ s1s2 = s1s2/10000
 print "x1: ", x1
 print "x2: ", x2
 covariance = [[sig1, s1s2],[s1s2, sig2]]
-print covariance
+print covariance[0]
+print covariance[1]
